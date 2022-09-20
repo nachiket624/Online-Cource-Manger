@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1062</width>
+    <height>623</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QDialog{
+	background-color:rgb(62,58,101);
+	font: 87 10pt &quot;Arial Black&quot;;
+}
+QLabel{
+	font: 63 10pt &quot;Open Sans Semibold&quot;;
+	color:rgb(239, 239, 239);
+}
+QLineEdit{
+	height:40;
+ 	border-bottom: 6px solid rgb(112,195,253);
+	border-radius:20px;
+	font: 63 10pt &quot;Open Sans Semibold&quot;;
+	color:rgb(255, 255, 255);
+	background-color:rgb(63,55,95);
+	padding-left:20px;
+	
+
+}
+QComboBox{
+	height:40;
+	border-bottom: 6px solid rgb(112,195,253);
+	border-radius:20px;
+	font: 63 10pt &quot;Open Sans Semibold&quot;;
+	color:rgb(255, 255, 255);
+	background-color:rgb(63,55,95);
+	padding-left:20px;
+}
+QPushButton{
+	height:40px;
+	font: 63 10pt &quot;Open Sans Semibold&quot;;
+	background-color:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(122, 195, 253, 233), stop:1 rgba(255, 255, 255, 255));
+	border-radius:20px;
+
+
+}
+QDoubleSpinBox{
+	color:rgb(255, 255, 255);
+	height:40;
+	border-bottom: 6px solid rgb(112,195,253);
+	font: 63 10pt &quot;Open Sans Semibold&quot;;
+	background-color:rgb(63,55,95);
+	border-top-left-radius:20px;
+	border-bottom-left-radius:20px;
+	padding-left:10px;
+}</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_2">
+   <item row="2" column="0" alignment="Qt::AlignHCenter">
+    <widget class="QPushButton" name="pushButton_6">
+     <property name="minimumSize">
+      <size>
+       <width>223</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>Submit</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="7" column="0" alignment="Qt::AlignLeft|Qt::AlignVCenter">
+      <widget class="QLabel" name="label_6">
+       <property name="text">
+        <string>Tag</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="2">
+      <widget class="QPushButton" name="adTechonology">
+       <property name="text">
+        <string>New Technology</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <widget class="QLineEdit" name="lineEdit_2">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>40</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="0" alignment="Qt::AlignLeft|Qt::AlignVCenter">
+      <widget class="QLabel" name="label_8">
+       <property name="text">
+        <string>Certificate</string>
+       </property>
+       <property name="buddy">
+        <cstring>pushButton</cstring>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="0" alignment="Qt::AlignLeft|Qt::AlignVCenter">
+      <widget class="QLabel" name="label_9">
+       <property name="text">
+        <string>Instructor</string>
+       </property>
+       <property name="buddy">
+        <cstring>lineEdit_3</cstring>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0" alignment="Qt::AlignLeft|Qt::AlignVCenter">
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>CourceTitle</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+       </property>
+       <property name="buddy">
+        <cstring>lineEdit</cstring>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QComboBox" name="adcplatform"/>
+     </item>
+     <item row="2" column="1">
+      <widget class="QDoubleSpinBox" name="doubleSpinBox"/>
+     </item>
+     <item row="7" column="1">
+      <widget class="QLineEdit" name="astagsug">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>0</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="2">
+      <widget class="QPushButton" name="adTag">
+       <property name="text">
+        <string>New Tag</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="2">
+      <widget class="QComboBox" name="comboBox">
+       <property name="minimumSize">
+        <size>
+         <width>151</width>
+         <height>0</height>
+        </size>
+       </property>
+       <item>
+        <property name="text">
+         <string>Minutes</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Hours</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Days</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Week</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Month</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Years</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="3" column="0" alignment="Qt::AlignLeft|Qt::AlignVCenter">
+      <widget class="QLabel" name="label_4">
+       <property name="text">
+        <string>Technology Type</string>
+       </property>
+       <property name="buddy">
+        <cstring>adtech_drop</cstring>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QComboBox" name="adtech_drop"/>
+     </item>
+     <item row="5" column="1">
+      <widget class="QLineEdit" name="lineEdit_3">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>40</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLineEdit" name="lineEdit">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>Open Sans Semibold</family>
+         <pointsize>10</pointsize>
+         <weight>7</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+         <kerning>true</kerning>
+        </font>
+       </property>
+       <property name="mouseTracking">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="1">
+      <widget class="QLineEdit" name="lineEdit_4">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>40</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>this is auto genrate</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0" alignment="Qt::AlignLeft|Qt::AlignVCenter">
+      <widget class="QLabel" name="label_3">
+       <property name="text">
+        <string>Duration</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="1">
+      <widget class="QPushButton" name="pushButton">
+       <property name="text">
+        <string>PushButton</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="2">
+      <widget class="QPushButton" name="adInstractor">
+       <property name="text">
+        <string>New Instructor</string>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="0" alignment="Qt::AlignLeft|Qt::AlignVCenter">
+      <widget class="QLabel" name="label_7">
+       <property name="text">
+        <string>Resource code</string>
+       </property>
+       <property name="buddy">
+        <cstring>lineEdit_4</cstring>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="2">
+      <widget class="QPushButton" name="adPlatform">
+       <property name="text">
+        <string>New Platform</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0" alignment="Qt::AlignLeft|Qt::AlignVCenter">
+      <widget class="QLabel" name="label_2">
+       <property name="text">
+        <string>Platform</string>
+       </property>
+       <property name="buddy">
+        <cstring>adcplatform</cstring>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0" alignment="Qt::AlignLeft|Qt::AlignVCenter">
+      <widget class="QLabel" name="label_5">
+       <property name="text">
+        <string>Cource link</string>
+       </property>
+       <property name="buddy">
+        <cstring>lineEdit_2</cstring>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <tabstops>
+  <tabstop>lineEdit</tabstop>
+  <tabstop>adcplatform</tabstop>
+  <tabstop>adPlatform</tabstop>
+  <tabstop>adtech_drop</tabstop>
+  <tabstop>adTechonology</tabstop>
+  <tabstop>lineEdit_2</tabstop>
+  <tabstop>lineEdit_3</tabstop>
+  <tabstop>adInstractor</tabstop>
+  <tabstop>pushButton</tabstop>
+  <tabstop>adTag</tabstop>
+  <tabstop>lineEdit_4</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
